@@ -1,0 +1,45 @@
+baseURL = "http://example.org/"
+languageCode = "ja"
+title = "TeamBeyond Tech Blog"
+theme = "coder"
+
+[params]
+    author = "i-Zacky"
+    description = "TeamBeyond Tech Blog"
+    keywords = "blog,developer,personal"
+    info = "Geek & Codes"
+    avatarurl = "images/avatar.jpg"
+    footercontent = ""
+
+    dateformat = "January 2, 2006"
+
+    hideCredits = true
+    hideCopyright = true
+
+    rtl = false
+
+    # Custom CSS
+    custom_css = []
+
+[[params.social]]
+   name = "Github"
+   icon = "fab fa-github"
+   weight = 1
+   url = "https://github.com/i-zacky/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+[[menu.main]]
+    name = "Projects"
+    weight = 3
+    url = "/projects/"
+[[menu.main]]
+    name = "Contact me"
+    weight = 5
+    url = "/contact/"
